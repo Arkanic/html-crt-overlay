@@ -8,9 +8,11 @@
         <svg id="svg" style="display:none;">
             <filter id="crtOverlay" filterUnits="objectBoundingBox" x="-50%" y="-50%" width="200%" height="200%">
                 <feImage id="image" result="map" xlink:href="sphere.png"/>
-                <feDisplacementMap id="dispMap" in="SourceGraphic" in2="map" scale="200" xChannelSelector="R" yChannelSelector="G"/>
+                <feDisplacementMap id="dispMap" in="SourceGraphic" in2="map" scale="230" xChannelSelector="R" yChannelSelector="G"/>
             </filter>
         </svg>
+
+        <img class="frame" src="frame.png"/>
         <div class="screen">
             <!-- page content goes here -->
             <h1>CRT overlay test</h1>
