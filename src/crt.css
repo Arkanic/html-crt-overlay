@@ -1,0 +1,12 @@
+html,body {
+    margin: 0;
+    height: 100%;
+}
+
+.screen {
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+    filter: url(#crtOverlay);
+    -webkit-filter: url(#crtOverlay);
+}
