@@ -1,6 +1,7 @@
 html,body {
     margin: 0;
     height: 100%;
+    background-color: rgb(20, 20, 20);
 }
 
 .screen {
@@ -12,6 +13,8 @@ html,body {
 
     box-sizing: border-box;
     padding: 100px;
+    
+    background-color: #fff;
 }
 
 .frame {
@@ -24,4 +27,23 @@ html,body {
 
     overflow: hidden;
     pointer-events: none;
+}
+
+/* animation */
+.screen {
+    animation: crtBurnin 3s ease-in;
+}
+
+@keyframes crtBurnin {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
