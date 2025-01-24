@@ -8,7 +8,7 @@
         <svg id="svg" style="display:none;">
             <filter id="crtOverlay" filterUnits="objectBoundingBox" x="-50%" y="-50%" width="200%" height="200%">
                 <feImage id="image" result="map" xlink:href="sphere.png"/>
-                <feDisplacementMap id="dispMap" in="SourceGraphic" in2="map" scale="230" xChannelSelector="R" yChannelSelector="G"/>
+                <feDisplacementMap id="dispMap" in="SourceGraphic" in2="map" scale="300" xChannelSelector="R" yChannelSelector="G"/>
             </filter>
         </svg>
 
@@ -17,6 +17,7 @@
             <!-- page content goes here -->
             <h1>CRT overlay test</h1>
             <p>abcdefghijkelemenopqrstuvwxyz</p>
+            <img src="sphere.png"/>
             <img src="grid.png" width="100%" height="100%"/>
             <p>this turned out to be a lot simpler than it should be, which leaves me somewhat disappointed as the output html makes it look like it took me five minutes to replicate and improve, or i could just be stupid</p>
             <img src="grid.png" width="100%" height="100%"/>
