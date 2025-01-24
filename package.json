@@ -1,0 +1,11 @@
+{
+  "name": "html-crt-overlay",
+  "version": "1.0.0",
+  "main": "devserver.js",
+  "scripts": {
+    "start": "node devserver.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
