@@ -28,6 +28,20 @@ html,body {
     pointer-events: none;
 }
 
+#readjust {
+    animation: readjustDisappear 0.5s;
+}
+
+@keyframes readjustDisappear {
+    0% {
+        display: block;
+    }
+
+    100% {
+        display: none;
+    }
+}
+
 /* animation */
 .screen {
     animation: crtBurnin 3s ease-in;
